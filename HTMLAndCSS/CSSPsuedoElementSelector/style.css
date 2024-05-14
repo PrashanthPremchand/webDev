@@ -1,0 +1,22 @@
+.cointainer2{
+    background-color: pink;
+    width: 50px;
+}
+p{
+    color: blue;
+}
+/*psuedo-element selector*/
+.para-pseudo::first-line{
+    color: black;
+}
+p::first-letter{
+    color: green;
+}
+p::before{
+    content:"---before--";
+    color:aquamarine;
+}
+p::after{
+    content:"---after--";
+    color:aquamarine;
+}

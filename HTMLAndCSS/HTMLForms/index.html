@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>New connection registration form</h1>
+    <form action="#" methord="post">
+        <div class="form-div">
+            <div class="div-lable">
+                <lable for="email">Email address</lable>
+            </div>
+            <div class="div-input">
+                <input class="form-input" type="email" name="email" placeholder="Email id" required>
+            </div>
+        </div>
+        <div class="form-div">
+            <div class="div-lable">
+                <lable for="mob">Phone number</lable>
+            </div>
+            <div class="div-input">
+                <input class="form-input" type="tel" name="mob" pattern="^[6-9]\d{9}$" minlength="10" maxlength="10" placeholder="Phone number" required>
+            </div>
+        </div>
+        <div class="form-div">
+            <div class="div-lable">
+                <lable for="fullname">Full name</lable>
+            </div>
+            <div class="div-input">
+                <input class="form-input" type="text" name="fname" placeholder="First name" required>
+                <input class="form-input" type="text" name="lname" placeholder="last name" required>
+            </div>
+        </div>
+        <div class="form-div">
+            <div class="div-lable">
+                <lable for="address">Address</lable>
+            </div>
+            <div class="div-input">
+                <input class="form-input" type="text" name="street" placeholder="Street address" required> <br>
+                <input class="form-input" type="text" name="addtype" placeholder="Office, Home, Apt." required>
+            </div>
+        </div>
+        <div class="form-div">
+            <div class="div-lable">
+                <lable for="city">City</lable>
+            </div>
+            <div class="div-input">
+                <input class="form-input" type="text" name="city" placeholder="City" required>
+                <select class="form-select" name="state" required>
+                    <option value="Tamilnadu">Tamilnadu</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Karnataka">Karanataka</option>
+                </select> 
+                <input class="form-input" type="text" name="pincode" min="100000" max="999999" placeholder="Pincode" required>
+            </div>
+        </div>
+        <div class="form-div">
+            <div class="div-lable">
+                <lable for="radio-tech">What radio technologies are you using?</lable>
+            </div>
+            <div class="div-input">
+                <!-- different name lets us choose multiple option -->
+                <input class="form-input-checkbox" type="checkbox" name="net-1" value="2G">2G
+                <input class="form-input-checkbox" type="checkbox" name="net-2" value="3G">3G
+                <input class="form-input-checkbox" type="checkbox" name="net-3" value="4G">4G
+                <input class="form-input-checkbox" type="checkbox" name="net-4" value="5G">5G
+            </div>
+        </div>
+        <div class="form-div">
+            <div class="div-lable">
+                <lable for="data-use">How much data do you use monthly?</lable>
+            </div>
+            <div class="div-input">
+                <!-- same name lets us choose only one option -->
+                <input class="form-input-radio" type="radio" name="net" value="0-50MB">0-50MB
+                <input class="form-input-radio" type="radio" name="net" value="50-150MB">50-150MB
+                <input class="form-input-radio" type="radio" name="net" value="150-250MB">150-250MB
+                <input class="form-input-radio" type="radio" name="net" value="250-550MB">250-550MB
+            </div>
+        </div>
+        <div class="form-div">
+            <div class="div-lable">
+                <lable for="subcription">Subcription duration</lable>
+            </div>
+            <div class="div-input">
+                <input class="form-input" type="date" name="date">
+                <lable for="to">To</lable>
+                <input class="form-input" type="date" name="date">
+            </div>
+        </div>
+        <div class="form-div">
+            <input class="btn" type="rest" value="Rest form">
+            <input class="btn" type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

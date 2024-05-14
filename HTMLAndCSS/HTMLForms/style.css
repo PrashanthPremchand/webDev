@@ -1,0 +1,103 @@
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+.form-input{
+    width: 20%;
+    height: 25px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 3px;
+    background-color: white;
+}
+.form-input:focus, .form-select:focus{
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-select{
+    width: 20%;
+    height: 27px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 3px;
+    background-color: white;
+}
+.div-lable{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 6px 0px;
+}
+.form-div{
+    margin-bottom:16px;
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"], input[type="rest"], input[type="submit"], option, select{
+    font-family: 'Lato', sans-serif;
+    padding: 2px 14px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.btn{
+    width:23%;
+    height:35px;
+    background: #4636d9;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}

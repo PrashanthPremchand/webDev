@@ -1,0 +1,25 @@
+/* desentent selector(space) */
+/* div .paraLevel2{
+    color: red;
+}
+.cointainer #para3-level2{
+    color:blue;
+}
+ul li{
+    background-color: pink;
+    width: 50px;
+} */
+/*child Selector*/
+/* span > p{
+    color: palevioletred
+} */
+/*adjacent sibiling*/
+/* div + p{
+    color: red;
+} */
+/*general sibilings*/
+div ~ p{
+    color: red;
+}
+
+

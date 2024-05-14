@@ -1,0 +1,29 @@
+.btn{
+    background-color: orange;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+/*psuedo-class selector*/
+/*hover*/
+.btn:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+/*unvisited link*/
+a:link{
+    color: lightblue;
+}
+/*visited link*/
+a:visited{
+    color: purple;
+}
+/*hover*/
+a:hover{
+    color: blue;
+}
+/*ative*/
+a:active{
+    color: blueviolet;
+}

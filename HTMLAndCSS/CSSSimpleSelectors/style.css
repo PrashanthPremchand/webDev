@@ -1,0 +1,35 @@
+/* universal selector */
+*{
+    margin: 10px;
+    background-color: lightcyan;
+}
+
+/* tag selector */
+p{
+    color: violet;
+}
+
+/* class selector */
+.para{
+    color: olive;
+}
+
+/* id selector */
+#unique1{
+    color: green;
+}
+
+/* class selector */
+.para2{
+    color: cyan;
+}
+
+/* id selector */
+#unique2{
+    color: lightcoral;
+}
+
+/* group selector */
+.para2, #unique2{
+    color: lightseagreen;
+}
