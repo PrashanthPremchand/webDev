@@ -1,0 +1,39 @@
+.parent{
+    height: 200vh;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    padding: 30px;
+    position: relative;
+}
+.child{
+    padding: 30px;
+    color: black;
+}
+.child1{
+    background-color: red;
+    position: static;
+}
+.child2{
+    background-color: green;
+    position: relative;
+    top: 0;
+    left: 30px;
+}
+.child3{
+    background-color: blue;
+    position: absolute; /*for the position of a child to be absolute the position of the parent has to be relative*/
+    top: 0;
+    left: 0;
+}
+.child4{
+    background-color: goldenrod;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.child5{
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+    left: 0;
+}

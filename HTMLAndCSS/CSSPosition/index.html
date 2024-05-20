@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>CSS position</h1>
+        <ol>
+            <li>Static: The original or default position of an element.</li>
+            <li>Relative:Element is positioned relative to it's normal/original position. Same as static positioning, just that here we can move an element by adding offset values. Element stays in normal document flow. </li>
+            <li>Absolute: Element is positioned relative to it's parent. If parent is not present then element is positioned relative to the main document. Element is removed from the normal document flow, no space is created for that element.</li>
+            <li>Fixed: Element is positioned relative to the viewport. Element does not move and stays in the same position even on scrolling. Element is removed from normal flow.</li>
+            <li>Sticky: Elelemnt is positioned according to the normal document flow. Till the element hits the top, it has normal position, after it touches the top then it's position becomes fixed.</li>
+        </ol>
+        <div class="parent">
+            <h2>Parent</h2>
+            <!-- these divitions has two class names -->
+            <div class="child child1"><p>Static</p></div> 
+            <div class="child child2"><p>relative</p></div>
+            <div class="child child3"><p>absolute</p></div>
+            <div class="child child4"><p>fixed</p></div>
+            <div class="child child5"><p>sticky</p></div>
+        </div>
+    </div>
+</body>
+</html>

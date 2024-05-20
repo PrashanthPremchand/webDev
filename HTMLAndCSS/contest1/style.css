@@ -1,0 +1,10 @@
+.blog, .images, .trivia{
+    margin: 28px 37px;
+}
+.blog{
+    border: 1px solid black;
+    padding: 20px 20px;
+}
+a{
+    color: black;
+}
