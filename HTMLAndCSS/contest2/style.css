@@ -1,0 +1,239 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #111111;
+}
+.item{
+    background-color: #262626;
+    border-radius: 25px;
+    margin: 20px 10px;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 20%;
+    height: 99vh;
+}
+.aside-image{
+    margin: 36px 36px;
+    text-align: center;
+}
+.aside-name{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.aside-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    background: #111111;
+    border-radius: 30px;
+    border: none;
+    padding: 12px 45px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 100%;
+    margin-bottom: 17px;
+    color: #FFFFFF80;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 21%;
+    width: 79%;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    padding: 56px 50px;
+    gap: 35px;
+}
+.section1-content{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.section1-para p{
+    margin-bottom: 60px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+     padding: 35px 50px;
+     gap: 18px;
+}
+a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.section2-head{
+    margin: 10px 10px;
+}
+.section2-table{
+    margin: 10px 10px;
+}
+table{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+}
+th, td{
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse; 
+   
+}
+
+th{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+    border-collapse: collapse;
+    padding: 9px 15px;
+    text-align: left;
+}
+td{
+    padding: 3px 15px;
+    text-align: left;
+}
+
+td:last-child, th:last-child{
+    border-right: none;
+}
