@@ -1,0 +1,22 @@
+/* justify-content: flex-start(default), flex-end, center, space-between, space-evenly, space-around
+   align-self: stretch(default), flex-start, flex-end, center 
+   align-item: stretch(default), flex-start, flex-end, center
+   align-content: stretch(default), flex-start, flex-end, center, space-between, space-evenly, space-around*/
+.container{
+    border: 2px solid red;
+    padding: 10px;
+    height: 40vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    /* align-content: center; */
+    /* justify-content: space-evenly; */
+}
+.item{
+    background-color: blue;
+    padding: 50px;
+    border: 1px solid blue;
+}
+.item6{
+    align-self: flex-start;
+}
