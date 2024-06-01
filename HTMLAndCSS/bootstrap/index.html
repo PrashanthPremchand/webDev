@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Bootstrap</h1>
+    </div>
+    <h4>Screen size</h4>
+    <div class="screen-size">
+        <p class="ss extra-small">XS</p>
+        <p class="ss small">SM</p>
+        <p class="ss medium">MD</p>
+        <p class="ss large">LG</p>
+        <p class="ss extra-large">XL</p>
+        <p class="ss extra-extra-large">XXL</p>
+    </div>
+    <h4>container</h4>
+    <div class="container-md border border-3 border-primary">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit omnis illo eos esse. Autem optio quis culpa necessitatibus consequuntur. Soluta rem praesentium excepturi nisi, blanditiis sint necessitatibus quo quasi accusamus illo natus laudantium repellat consectetur maxime inventore modi vitae. Minima consequuntur similique voluptates vero illum ipsam, ex impedit tempore, placeat quis aspernatur inventore delectus quibusdam culpa quam molestias. Eius, vel. Et neque dignissimos quos officiis laudantium! Labore asperiores quis earum tempora vitae aspernatur voluptates autem fuga perspiciatis eius, perferendis adipisci inventore eaque dolore nostrum quibusdam dolorem, unde quos sed accusantium ipsa corporis facilis eos delectus! Non, molestiae. Nemo, numquam eveniet!</p>
+    </div>
+    <div class="container-fluid">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae omnis maxime veniam amet beatae quod veritatis. Voluptate labore deleniti tempora ex ea similique cum recusandae hic suscipit fugit. Blanditiis ullam assumenda consequatur, laboriosam aliquid perspiciatis eveniet inventore. Eligendi minus laboriosam ad? Sapiente recusandae amet quam earum ratione, expedita sit esse officia labore eligendi cum quidem quisquam, quae, atque maxime eius enim. Nam corporis esse quod laudantium quidem error iusto ab laborum, sunt cumque dicta nemo harum mollitia cum enim vel delectus dolor? Consectetur vitae incidunt quas nostrum, iure veniam nobis, animi asperiores exercitationem at aperiam autem. Aliquam architecto temporibus aliquid.</p>
+    </div>
+    <h4>Grid</h4>
+    <div class="row">
+        <div class="eg border">1</div>
+        <div class="eg border">2</div>
+        <div class="eg border">3</div>
+        <div class="eg col-2 border">4</div>
+        <div class="eg col-10 border">5</div>
+        <div class="eg col-5 border">6</div>
+        <div class="eg col-8 border">7</div>
+    </div>
+    <div class="container border border-3 border-info">
+        <div class="row justify-content-around">
+            <div class="eg col-3">8</div>
+            <div class="eg col-3">9</div>
+            <div class="eg col-3">10</div>
+        </div>
+    </div>
+    <div class="container border border-3 border-info">
+        <div class="row justify-content-around">
+            <div class="eg col-md-3">11</div>
+            <div class="eg col-md-3">12</div>
+            <div class="eg col-md-3">13</div>
+        </div>
+    </div>
+    <h4>Buttons</h4>
+    <div class="container">
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-light">Light</button>
+        <button class="btn btn-outline-danger">OutLined Button</button>
+    </div>
+    <div class="btn-group my-3 mx-3">
+        <button class="btn btn-danger">-</button>
+        <button class="btn btn-info">+</button>
+    </div>
+    <h4>Text</h4>
+    <span class="text-muted">Muted text</span>
+    <span class="text-danger">Danger colour text</span>
+    <div class="container my-3 border border-3 border-primary p-4">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="username" class="form-label">User name</label>
+                <input id="username" name="username" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="username" class="form-label">User name</label>
+                <input id="username" name="username" class="form-control is-valid" type="text">
+                <small class="form-text">username is valid</small>
+            </div>
+            <div class="form-group">
+                <label for="username" class="form-label">User name</label>
+                <input id="username" name="username" class="form-control is-invalid" type="text">
+                <small class="form-text text-danger">username is invalid</small>
+            </div>
+            <div class="form-group">
+                <label for="username" class="form-label">User name</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="username" name="fname" placeholder="First name">
+                    <input type="text" class="form-control" id="username" name="lname" placeholder="Last name">
+                    <button class="btn btn-primary">-></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container my-3 border border-3 border-primary p-4">
+        <div class="row">
+            <div class="col-8 offset-2">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="username" class="form-label">User name</label>
+                        <input id="username" name="username" class="form-control" type="text">
+                        <small>username is</small>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <h4>Card</h4>
+    <div class="container my-4">
+        <div class="row justify-content-between`">
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h1 class="card-title">Body</h1>
+                        <h5 class="card-subtitle">Subtitle</h5>
+                    </div>
+                    <div class="card-footer">Footer</div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="./images/headerImage.jpg" alt="header image" class="card-img">
+                    </div>
+                    <div class="card-body">Body</div>
+                    <div class="card-footer">Footer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

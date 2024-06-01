@@ -1,0 +1,62 @@
+.ss{
+    display: none;
+}
+@media (max-width: 576px){
+    .ss{
+        display: none;
+    }
+    .extra-small{
+        display: block;
+        font-size: 20px;
+    }
+}
+@media (min-width: 576px){
+    .ss{
+        display: none;
+    }
+    .small{
+        display: block;
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px){
+    .ss{
+        display: none;
+    }
+    .medium{
+        display: block;
+        font-size: 20px;
+    }
+}
+@media (min-width: 992px){
+    .ss{
+        display: none;
+    }
+    .large{
+        display: block;
+        font-size: 20px;
+    }
+}
+@media (min-width: 1200px){
+    .ss{
+        display: none;
+    }
+    .extra-large{
+        display: block;
+        font-size: 20px;
+    }
+}
+@media (min-width: 1400px){
+    .ss{
+        display: none;
+    }
+    .extra-extra-large{
+        display: block;
+        font-size: 20px;
+    }
+}
+.eg{
+    background-color: rgb(121,82,179);
+    height: 50px;
+    color: white;
+}
