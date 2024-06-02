@@ -1,0 +1,123 @@
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.left,.right{
+    margin: 0 52px;
+}
+.input-container{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+    margin-top: 48px;
+}
+/* .material-symbols-outlined{
+    color: #808080;
+} */
+.input-lable, .input-icon, .input-box, .input-group-lable, .input-group-text, .input-group-button, .input-group-search, .input-group-cart, .checkbox-text, .radio-text, .switch-text{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.input-box, .text-field-input, .text-field-button, .search-input, .cart-input, .cart-button1, .cart-button2{
+    padding:16px 26px;
+    border-radius: 7px;
+    border: 1.5px solid #808080;
+}
+.input-group{
+    display: flex;
+    position: relative;
+}
+.input-group-lable, .input-group-button, .search-icon, .cart-button1, .cart-button2{
+    position: absolute;
+}
+.text-field-label{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding:16px 26px;
+}
+.text-field-input{
+    flex-grow: 1; 
+    padding: 16px 124px;
+}
+.text-field-button{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 16px 72px;
+    background-color: white;
+}
+.search{
+    margin-top: 46px;
+}
+.search-icon{
+    font-size: 16px;
+    padding: 22px;
+}
+.search-input{
+    flex-grow: 1;
+    padding: 16px 64px;
+}
+.cart{
+    width: 143px;
+}
+.cart-input{
+    width: 100%;
+    padding: 16px 64px;
+}
+.cart-button1, .cart-button2{
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 16px 13px;
+    margin: 1px;
+    border: none;
+}
+.cart-button1{
+    left: 0;
+}
+.cart-button2{
+    right: 0;
+}
+.simple-input{
+    margin-top: 48px;
+}
+.checkbox, .radio{
+    width: 24px;
+    height: 24px;
+}
+.input-radio, .input-switch{
+    margin-top: 24px;
+}
+.input-switch{
+    display: flex;
+    position: relative;
+    gap: 10px;
+}
+.switch-checkbox{
+   position: absolute;
+}
+.switch-button{
+    position: relative;
+    height: 26px;
+    width: 50px;
+    background-color: rgb(232,232,232);
+    border-radius: 13px;
+    cursor: pointer;
+}
+.switch-button::before{
+position: absolute;
+content: '';
+height: 20px;
+width: 20px;
+background-color: white;
+border-radius: 50%;
+margin: 3px;
+transition: 0.5s;
+}
+.switch-checkbox:checked + .switch-button::before{
+    transform: translateX(24px);
+}

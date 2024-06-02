@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="input-container">
+                <div class="label">
+                    <label for="text-field" class="input-lable">Text Feild</label>
+                    <span class="input-icon" style="color: red">*</span>
+                </div>
+                <input type="text" class="input-box" name="text-field" id="text-field" placeholder="Input Text">
+            </div>
+            <div class="input-container">
+                <div class="label">
+                    <label for="select-field" class="input-lable">Text Feild</label>
+                    <span class="material-symbols-outlined">info</span>
+                </div>
+                <input type="number" class="input-box" name="select-field" id="select-field" placeholder="Select">
+            </div>
+            <div class="input-container">
+                <div class="label">
+                    <label for="text-area" class="input-lable">Text Feild</label>
+                    <span class="material-symbols-outlined">info</span>
+                </div>
+                <textarea class="input-box" id="text-area" name="text-area" placeholder="Text Area" rows="5"></textarea>
+            </div>
+            <div class="input-container">
+                <div class="label">
+                    <label for="input-text" class="input-lable">Text Feild with Add-ons</label>
+                    <span class="input-icon" style="color: red">*</span>
+                </div>
+                <div class="input-group text-field">
+                    <span class="input-group-lable text-field-label">Lable</span>
+                    <input type="text" class="input-group-text text-field-input" id="input-text" name="input-text" placeholder="Input Text">
+                    <button type="button" class="input-group-button text-field-button">Button</button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="input-container">
+                <div class="input-group search">
+                    <div class="search-icon"><span class="material-symbols-outlined">search</span></div>
+                    <input type="search" class="input-group-search search-input" placeholder="search">
+                </div>
+            </div>
+            <div class="input-container">
+                <div class="input-group cart">
+                    <button type="button" class="input-group-button cart-button1">-</button>
+                    <input type="text" class="input-group-cart cart-input" id="cart-input" name="cart-input" placeholder="1">
+                    <button type="button" class="input-group-button cart-button2">+</button>
+                </div>
+            </div>
+            <div class="simple-input">
+                <div class="input-checkbox">
+                    <input type="checkbox" class="checkbox">
+                    <span class="checkbox-text">Checkbox</span>
+                </div>
+                <div class="input-radio">
+                    <input type="radio" class="radio">
+                    <span class="radio-text">Radio</span>
+                </div>
+                <div class="input-switch">
+                    <input type="checkbox" class="switch-checkbox" id="switch" name="switch">
+                    <label for="switch" class="switch-button"></label>
+                    <span class="switch-text">Switch</span>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
