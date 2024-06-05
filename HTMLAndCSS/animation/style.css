@@ -1,0 +1,51 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.5s; */
+    position: relative;
+    animation-name: first;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    animation-delay: 0;
+    animation-direction: forward;
+    animation-fill-mode: normal;
+}
+/* .container:hover{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+} */
+@keyframes first{
+    /* from{
+        left: 0;
+        top: 0;
+    }
+    to{
+        right: 0;
+        top: 500px;
+    } */
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 500px;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+    }
+    75%{
+        top: 500px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
